@@ -1,0 +1,12 @@
+GET http://localhost:3007/api/Khanyie/greet?name=Khanyie&language=IsiZulu
+content-type: application/json
+
+###
+
+POST http://localhost:3007/api/Khanyie/greet
+content-type: application/json
+
+{
+    "name": "Khanyisani",
+    "language" : "IsiZulu"
+}
